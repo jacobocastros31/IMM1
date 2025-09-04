@@ -21,8 +21,8 @@ except:
 
 st.subheader("Conversión a Audio")
 st.write("Para convertir el texto a audio en esta pagina debes de seguir estos sencillos pasos: 1. Escribe en caja de abajo que es lo que quieres decir."
-         "2. selecciona el idioma en el que quieres que la otra persona lo escuche"
-         "3. Dale al boton convertir a audio")
+         " 2. selecciona el idioma en el que quieres que la otra persona lo escuche"
+         " 3. Dale al boton convertir a audio")
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
 text = st.text_area("Ingrese El texto a escuchar.")
